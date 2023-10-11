@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('fonts/DejaVuSansMono.ttf') format('truetype'); /* Adjust the path accordingly */
+}
+
+body {
+    font-family: 'DejaVu Sans Mono', monospace;
+    background-color: #1e1e1e; /* Dark background */
+    color: #e8e8e8; /* Light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 2px solid #555;
+    border-radius: 0;
+    outline: none;
+    width: 70%;
+    background-color: transparent;
+    color: #e8e8e8;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-bottom-color: #e8e8e8;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #e8e8e8;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    border-color: #e8e8e8;
+}
