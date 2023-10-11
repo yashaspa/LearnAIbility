@@ -37,6 +37,8 @@ p {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-family: 'DejaVu Sans Mono', monospace;
+
 }
 
 input[type="text"] {
@@ -50,10 +52,12 @@ input[type="text"] {
     background-color: transparent;
     color: #e8e8e8;
     transition: border-color 0.3s;
+    font-family: 'DejaVu Sans Mono', monospace;
 }
 
 input[type="text"]:focus {
     border-bottom-color: #e8e8e8;
+    font-family: 'DejaVu Sans Mono', monospace;
 }
 
 button {
